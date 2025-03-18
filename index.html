@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tic-tac-toe</title>
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-    
+    <div class="main">
+        <h1 class="app-name">Tic Tac Toe</h1>
+        <p class="current-player" id="current-player">Current Player: Player1</p>
+        <div class="game">
+          <div class="cell" onclick="makeMove(0)"></div>
+          <div class="cell" onclick="makeMove(1)"></div>
+          <div class="cell" onclick="makeMove(2)"></div>
+          <div class="cell" onclick="makeMove(3)"></div>
+          <div class="cell" onclick="makeMove(4)"></div>
+          <div class="cell" onclick="makeMove(5)"></div>
+          <div class="cell" onclick="makeMove(6)"></div>
+          <div class="cell" onclick="makeMove(7)"></div>
+          <div class="cell" onclick="makeMove(8)"></div>
+        </div>
+        <button type="button" class="reset" onclick="resetBoard()">Reset</button>
+      </div>
 </body>
 </html>
